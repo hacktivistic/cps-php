@@ -1,0 +1,64 @@
+$primary-color: #4286f4;
+
+$bg-color: #fff;
+
+$fore-color: #606060;
+
+$head-color: #3b68b1;
+$link-color: #004cff;
+$sub-color: #606060;
+
+body{
+    background-color: $bg-color;
+    color: $fore-color;
+}
+
+.y{
+    color: $primary-color;
+}
+
+.nav{
+    background-color: $primary-color;
+}
+
+.post-name{
+    color: $primary-color;
+}
+
+#searchBtn{
+    background-color: $primary-color;
+}
+
+.postBtn{
+    background-color: $primary-color;
+}
+
+.titlebar{
+    background-color: $head-color;
+    color: $bg-color;
+}
+
+a, a:link, a:visited {
+    color: $primary-color;
+}
+
+a:hover {
+    color: $link-color;
+}
+
+span {
+	color: $sub-color;
+}
+
+label {
+	color: $fore-color;
+}
+
+input, form input, .form-group input, .form-group input:focus, textarea{
+	background-color: $bg-color;
+	color: $fore-color;
+}
+
+.tetx {
+    color: $fore-color;
+}

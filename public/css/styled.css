@@ -1,0 +1,61 @@
+body {
+  background-color: #fff;
+  color: #606060;
+}
+
+.y {
+  color: #4286f4;
+}
+
+.nav {
+  background-color: #4286f4;
+}
+
+.post-name {
+  color: #4286f4;
+}
+
+#searchBtn {
+  background-color: #4286f4;
+}
+
+.postBtn {
+  background-color: #4286f4;
+}
+
+.titlebar {
+  background-color: #3b68b1;
+  color: #fff;
+}
+
+a,
+a:link,
+a:visited {
+  color: #4286f4;
+}
+
+a:hover {
+  color: #004cff;
+}
+
+span {
+  color: #606060;
+}
+
+label {
+  color: #606060;
+}
+
+input,
+form input,
+.form-group input,
+.form-group input:focus,
+textarea {
+  background-color: #fff;
+  color: #606060;
+}
+
+.tetx {
+  color: #606060;
+}
+

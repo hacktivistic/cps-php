@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Oswald|Concert+One');
+
+*{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+ 	font-family: 'Dosis', sans-serif;
+ 	font-size: 16px;
+ }
+
+ .title{
+	margin-top : 20px;
+	color: #808080;
+	font-family: 'Oswald', sans-serif;
+ }
+
+ .nav{
+ 	margin-top: 30px;
+ 	font-family: 'Concert One', sans-serif;
+	font-size: 20px;
+	margin-bottom: 30px;
+ }
+
+.nav li{
+	float: left;
+	margin-right: 0px;
+	padding: 5px 15px 15px;
+	border: 0px solid #606060;
+}
+
+.nav li:hover{
+	background-color: #EEAA55;
+}
+
+.active{
+	background-color: #88CC55;
+}
+
+.nav a, .nav a:link, .nav a:visited{
+	color: #FFF;
+}
+
+.rnav{
+	margin-right: 0px;
+	padding: 5px 10px 5px;
+}
+
+.rnav a, .rnav a:link, .rnav a:visited{
+	color: #EEAA55;
+	text-decoration: none;
+}
+
+.rnav a:hover{
+	text-decoration: underline;
+}
+
+.body{
+	margin-top: 30px;
+}
+
+.post-name{
+	font-size: 24px;
+    font-family: 'Oswald', cursive;
+    margin: 0px;
+}
+
+
+a, a:link, a:visited{
+	text-decoration: none;
+}
+
+.titlebar{
+ 	font-family: 'Concert One', sans-serif;
+	font-size: 20px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+}
+.content{
+	margin: 25px;
+}
+
+.boxitem{
+	margin: 10px auto 20px;
+}
+
+.boxitem .post-name{
+	font-size: 28px;
+}
+
+#search{
+	display: block;
+	width: 50%;
+	border: 1px solid #909090;
+	font-size: 16px;
+	padding: 3px 5px 3px;
+	margin-top: 35px;
+}
+
+#searchBtn{
+	display: block;
+	width: auto;
+	border: 1px solid #909090;
+	font-size: 16px;
+	color: #f5f5f5;
+	padding: 3px 15px 3px;
+	border-radius: 5px;
+	margin: 35px 5px 0px;
+}
+
+#navbarDropdown{
+	text-decoration: none;
+	color: #e0e0e0;
+}
+
+.dropdown-item:hover{
+	background-color: #606060;
+}
+
+
+.txtarea{
+    width: 100%;
+    height: 300px;
+    border: 1px solid #909090;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+}
+
+.postBtn{
+	width: 150px;
+	border: 1px solid #606060;
+	font-size: 16px;
+	color: #f5f5f5;
+	padding: 3px;
+	border-radius: 5px;
+	margin: 3px;
+}
+
+.titlea{
+    border: 1px solid #909090;
+    margin-bottom: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+}
+
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
